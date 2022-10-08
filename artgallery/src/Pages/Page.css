@@ -1,7 +1,11 @@
 .header{
     height: 40vh;
     background-color: blueviolet;
-    
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 4em;
+    text-align: center;
+    line-height: 35vh;
 }
 .post-section{
     display: flex;

@@ -4,7 +4,9 @@ import "./Page.css";
 function Page() {
   return (
     <div>
-      <div className="header"></div>
+      <div className="header">
+        Hand Drawn
+      </div>
       <div className="post-section-division">
         <div className="post-section">
           <div className="post"></div>
