@@ -1,0 +1,22 @@
+.header{
+    height: 40vh;
+    background-color: blueviolet;
+    
+}
+.post-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.post-section-division{
+    
+    
+}
+.post{
+    margin: 1rem;
+    background-color: coral;
+    height: 25rem;
+    width: 20rem;
+}
+
