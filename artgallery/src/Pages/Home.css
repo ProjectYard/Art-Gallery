@@ -1,0 +1,29 @@
+.main-section{
+
+}
+
+.main-section .ttl{
+    height: 40vh;
+    line-height: 40vh;
+}
+
+.main-section .ttl h1{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    font-size: 5em;
+}
+
+.section{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sub-section{
+    margin: 1rem;
+    background-color: aquamarine;
+    height: 15rem;
+    width: 15rem;
+}
