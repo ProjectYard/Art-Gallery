@@ -1,0 +1,1 @@
+export const Post = ({ classname }) => <div className={ classname }></div>
