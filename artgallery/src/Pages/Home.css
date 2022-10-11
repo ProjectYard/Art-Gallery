@@ -1,19 +1,24 @@
 .main-section{
-
+ height: 100vh;
 }
 
 .main-section .ttl{
     height: 40vh;
     line-height: 40vh;
+    text-shadow: 0 0 2rem rgba(0, 0, 0, 0.283);
 }
 
 .main-section .ttl h1{
     text-align: center;
     font-family: 'Yeseva One', cursive;
     font-size: 5em;
+    color: gold;
+    /* background: linear-gradient(180deg, #FDEB71 40%, #fabb00 70%);
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
 }
 
-.section{
+.main-section .section{
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -21,9 +26,22 @@
     flex-wrap: wrap;
 }
 
-.sub-section{
-    margin: 1rem;
-    background-color: aquamarine;
+.main-section .section .sub-section{
+    margin: 1.5rem;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.396) 0px 7px 29px 0px;
     height: 15rem;
     width: 15rem;
+    border-radius: 1rem;
+    transition: 0.5s;
 }
+
+.main-section .section .sub-section:hover{
+    transform:scale(1.1);
+    /* transform: translateY(-1rem); */
+}
+
+@media screen {
+    
+}
+

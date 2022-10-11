@@ -6,7 +6,7 @@ function Home() {
     <div>
       <div className="main-section">
         <div className="ttl">
-          <h1>The Art Gallery</h1>
+          <h1>The Art Gallery.</h1>
         </div>
         <div className="section">
           <div className="sub-section"></div>
