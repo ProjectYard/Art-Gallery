@@ -1,0 +1,152 @@
+.footer-section{
+    height: 70vh;
+    display: flex;
+    background: linear-gradient(0deg, rgba(103, 61, 230, 1) 0%, rgba(133, 92, 255, 1) 100%);
+}
+
+.footer-section .left-foot{
+    padding-bottom: 2rem;
+    width: 40vw;
+    height: 70vh;
+}
+
+.footer-section .left-foot .logo{
+    margin: 3rem;
+    width: 15rem;
+}
+
+.footer-section .left-foot p{
+    color: rgba(255, 255, 255, 0.715);
+    margin: 0 3rem;
+}
+
+.pay-logo{
+    margin: 3rem;
+}
+
+.pay-logo .pay{
+    margin-right: 1rem;
+}
+
+.footer-section .right-foot {
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+}
+
+.footer-section .right-foot{
+    justify-content: center;
+    
+}
+
+.footer-section .right-foot h3{
+    /* color: #2f1c6a; */
+    color: #fff;
+}
+
+.footer-section .right-foot a{
+    color: rgba(255, 255, 255, 0.506);
+}
+
+.footer-section .right-foot a:hover{
+    color: #fff;
+}
+
+.footer-section .ul-list{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.footer-section .ul-list h3{
+    margin-top: 1rem;
+}
+
+.footer-section .left-foot .social-media{
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.footer-section .left-foot .social-media .social-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.footer-section ul li{
+    list-style: none;
+    padding: 0.1rem;
+}
+
+.footer-section hr{
+    display: none;
+}
+
+.pich-black{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f1c6a;
+    height: 2rem;
+    align-items: center;
+}
+
+.fb:hover{
+    color: #b1cbff;
+    transition: 0.2s;
+}
+
+.ig:hover {
+    color: rgb(255, 171, 185);
+    transition: 0.2s;
+}
+
+.ld:hover {
+    color: rgb(126, 171, 255);
+    transition: 0.2s;
+}
+
+.tt:hover {
+    color: rgb(156, 200, 255);
+    transition: 0.2s;
+}
+
+.yt:hover {
+    color: rgb(255, 147, 147);
+    transition: 0.2s;
+}
+
+.pich-black p{
+    margin: 0 2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.738);
+}
+
+@media (max-width: 65em){
+    .footer-section hr{
+        display:block;
+    }
+
+    .footer-section{
+        display: block;
+        height: auto;
+    }
+    .footer-section .left-foot{
+        width: 100vw;
+        height: auto;
+    }
+    .footer-section .right-foot{
+        width: 100vw;
+    } 
+}
+
+@media (max-width: 37em){
+    .footer-section .right-foot{
+        height: auto;
+    }
+    .pich-black{
+        height: auto;
+    }
+
+    .footer-section .right-foot{
+        flex-wrap: wrap;
+    }
+}
