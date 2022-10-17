@@ -1,5 +1,6 @@
 import React from "react";
 import "./Page.css";
+import Footer from "./Footer";
 
 function Page() {
   return (
