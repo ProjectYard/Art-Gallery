@@ -78,7 +78,7 @@ function Footer() {
                                 <li>
                                     <a href="#">CyberPanel Hosting</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#">Cloud Hosting</a>
                                 </li>
                                 <li>
@@ -86,7 +86,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="#">Email Hosting</a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href="#">CMS Hosting</a>
                                 </li>
@@ -96,7 +96,7 @@ function Footer() {
                                 <li>
                                     <a href="#">Free Web Hosting</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#">Online Store</a>
                                 </li>
                                 <li>
@@ -104,7 +104,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="#">Buy Hosting</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
