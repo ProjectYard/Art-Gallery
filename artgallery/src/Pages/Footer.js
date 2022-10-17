@@ -78,33 +78,14 @@ function Footer() {
                                 <li>
                                     <a href="#">CyberPanel Hosting</a>
                                 </li>
-                                {/* <li>
-                                    <a href="#">Cloud Hosting</a>
-                                </li>
-                                <li>
-                                    <a href="#">WordPress Hosting</a>
-                                </li>
-                                <li>
-                                    <a href="#">Email Hosting</a>
-                                </li> */}
+
                                 <li>
                                     <a href="#">CMS Hosting</a>
                                 </li>
                                 <li>
                                     <a href="#">Ecommerce Hosting</a>
                                 </li>
-                                <li>
-                                    <a href="#">Free Web Hosting</a>
-                                </li>
-                                {/* <li>
-                                    <a href="#">Online Store</a>
-                                </li>
-                                <li>
-                                    <a href="#">Website Builder</a>
-                                </li>
-                                <li>
-                                    <a href="#">Buy Hosting</a>
-                                </li> */}
+
                             </ul>
                         </div>
                     </div>
